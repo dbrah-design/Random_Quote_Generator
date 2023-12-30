@@ -1,1 +1,1 @@
-# Random_Quote_Generator
+This a small project to practice my Javascript skills
