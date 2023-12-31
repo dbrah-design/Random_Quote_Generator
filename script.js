@@ -4,9 +4,10 @@ function generateMovieQuote() {
 
   let randomQuotes = movieQuotes[(Math.floor(Math.random() * movieQuotes.length))];
 
+
   const paragraphEl = document.querySelector('.display-quote');
 
-  paragraphEl.innerText = randomQuotes
+  paragraphEl.innerText = `"${randomQuotes}"`  
 
 }
 
