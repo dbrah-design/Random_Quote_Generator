@@ -10,7 +10,7 @@ function generateMovieQuote() {
 
   const paragraphEl = document.querySelector('.display-quote');
 
-  paragraphEl.innerText = `"${randomQuotes}"`  
+  paragraphEl.innerText = randomQuotes  
 
 }
 
